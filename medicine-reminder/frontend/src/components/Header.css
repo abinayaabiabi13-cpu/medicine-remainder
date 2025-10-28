@@ -1,0 +1,21 @@
+.app-header {
+  position:sticky;
+  top:0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
+  backdrop-filter: blur(4px);
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  z-index: 20;
+}
+.header-inner {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:14px 0;
+}
+.brand { display:flex; align-items:center; gap:10px; }
+.brand-logo { font-size:22px; }
+.header-right { display:flex; gap:10px; align-items:center; }
+.icon-btn, .logout-btn {
+  background:transparent; border:1px solid rgba(0,0,0,0.06); padding:8px 12px; border-radius:8px;
+}
+.logout-btn { background: var(--primary); color:#fff; border:none; }

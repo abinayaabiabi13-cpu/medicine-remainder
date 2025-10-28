@@ -1,0 +1,29 @@
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #61dafb, #21a1f1);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  animation: fadeOut 1s ease forwards;
+  animation-delay: 2.5s; /* after 2.5s it fades */
+}
+
+.splash-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.splash-subtitle {
+  font-size: 1.2rem;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,23 @@
+.auth-page {  align-items:center; justify-content:center; min-height:70vh; }
+.auth-card { width:400px; margin:auto; text-align:center; }
+.auth-input { width:100%; padding:12px 14px; margin-top:10px; border-radius:8px; border:1px solid #ddd; }
+.auth-btn { width:100%; background:var(--primary); color:#111; padding:12px; margin-top:12px; border-radius:8px; border:none; font-weight:600; }
+.link { color:var(--accent); cursor:pointer; font-weight:600; }
+/* Medicine Reminder App heading */
+.app-heading {
+  text-align: center;         /* Center the heading */
+  font-size: 2.5rem;          /* Large font size */
+  color: #000000;             /* Blue color */
+  font-weight: bold;           /* Bold text */
+  margin: 20px 0;             /* Space above and below */
+  font-family: 'Arial', sans-serif;  /* Professional font */
+}
+
+/* Optional tagline under heading */
+.app-tagline {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+  font-style: italic;
+}
